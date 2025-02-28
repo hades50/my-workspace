@@ -1,0 +1,70 @@
+/* /home/odin/Documents/angular-refresher/angular-19/my-workspace/projects/my-app/src/app/details/details.component.css */
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.listing-photo {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.listing-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.listing-heading {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.listing-location {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.listing-features {
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 1.5em;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.listing-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listing-features li {
+  font-size: 1.1em;
+  color: #555;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+/* Add a hover effect to the list items */
+.listing-features li:hover {
+  background-color: #f0f0f0;
+}
